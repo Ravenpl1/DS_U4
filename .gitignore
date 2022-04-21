@@ -1,0 +1,14 @@
+# Environments
+venv/
+venv.bak/
+
+# Temp
+.idea/
+.ipynb_checkpoints/
+U4/
+readme.md
+req.txt
+.python-version
+
+# Cache files
+*.pyc
