@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block title %}
+эластик
+{% endblock %}
+
+{% block content %}
+<form action="/" method="post" enctype="multipart/form-data">
+    <table border="1">
+        <tr>
+            <td>Заголовок1</td>
+            <td>Заголовок2</td>
+        </tr>
+        <tr>
+            <td>Угол нашивки, град</td>
+            <td><input style='' type="text" placeholder="Угол нашивки, град" name="Угол нашивки, град"></td>
+        </tr>
+        <tr>
+            <td>Шаг нашивки</td>
+            <td><input style='' type="text" placeholder="Шаг нашивки" name="Шаг нашивки"></td>
+        </tr>
+        <tr>
+            <td>Плотность нашивки</td>
+            <td><input style='' type="text" placeholder="Плотность нашивки" name="Плотность нашивки"></td>
+        </tr>
+        <tr>
+            <td>Соотношение матрица-наполнитель</td>
+            <td><input style='' type="text" placeholder="Соотношение матрица-наполнитель" name="Соотношение матрица-наполнитель"></td>
+        </tr>
+        <tr>
+            <td>Плотность, кг/м3</td>
+            <td><input style='' type="text" placeholder="Плотность, кг/м3" name="Плотность, кг/м3"></td>
+        </tr>
+        <tr>
+            <td>Модуль упругости, ГПа</td>
+            <td><input style='' type="text" placeholder="Модуль упругости, ГПа" name="Модуль упругости, ГПа"></td>
+        </tr>
+        <tr>
+            <td>Количество отвердителя, м.%</td>
+            <td><input style='' type="text" placeholder="Количество отвердителя, м.%" name="Количество отвердителя, м.%"></td>
+        </tr>
+        <tr>
+            <td>Содержание эпоксидных групп,%_2</td>
+            <td><input style='' type="text" placeholder="Содержание эпоксидных групп,%_2" name="Содержание эпоксидных групп,%_2"></td>
+        </tr>
+        <tr>
+            <td>Температура вспышки, С_2</td>
+            <td><input style='' type="text" placeholder="Температура вспышки, С_2" name="Температура вспышки, С_2"></td>
+        </tr>
+        <tr>
+            <td>Поверхностная плотность, г/м2</td>
+            <td><input style='' type="text" placeholder="Поверхностная плотность, г/м2" name="Поверхностная плотность, г/м2"></td>
+        </tr>
+        <tr>
+            <td>Модуль упругости при растяжении, ГПа</td>
+            <td><input style='' type="text" placeholder="Модуль упругости при растяжении, ГПа" name="Модуль упругости при растяжении, ГПа"></td>
+        </tr>
+        <tr>
+            <td>Прочность при растяжении, МПа</td>
+            <td><input style='' type="text" placeholder="Прочность при растяжении, МПа" name="Прочность при растяжении, МПа"></td>
+        </tr>
+        <tr>
+            <td>Потребление смолы, г/м2</td>
+            <td><input style='' type="text" placeholder="Потребление смолы, г/м2" name="Потребление смолы, г/м2"></td>
+        </tr>
+    </table>
+    <button type="submit" href="/">Рассчитать</button>
+</form>
+{% endblock %}
