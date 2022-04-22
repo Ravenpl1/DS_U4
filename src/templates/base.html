@@ -8,10 +8,11 @@
 
 {% block menu %}
 <div class="navbar">
-    <a href="{{ url_for('index') }}" class="main">ВКР</a>
+    <a class="main">ВКР</a>
+    <a href="{{ url_for('index') }}" class="{{ target }}">Главная страница</a>
     <a href="{{ url_for('elastic') }}" class="{{ target1 }}">Модуль упругости при растяжении</a>
-    <a href="{{ url_for('index') }}" class="{{ target2 }}">Прочность при растяжении</a>
-    <a href="{{ url_for('index') }}" class="{{ target3 }}">Соотношение матрица-наполнитель</a>
+    <a href="{{ url_for('strength') }}" class="{{ target2 }}">Прочность при растяжении</a>
+    <a href="{{ url_for('filler_matrix') }}" class="{{ target3 }}">Соотношение матрица-наполнитель</a>
 </div>
 {% endblock %}
 
