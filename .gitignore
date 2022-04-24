@@ -6,6 +6,7 @@ venv.bak/
 .idea/
 .ipynb_checkpoints/
 U4/
+backup/
 readme.md
 req.txt
 .python-version
